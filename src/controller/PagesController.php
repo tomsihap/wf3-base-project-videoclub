@@ -6,14 +6,20 @@ class PagesController {
 
     public function home() {
 
-        $title = "Ma page d'accueil";
-        view('pages.home', compact('title'));
+        view('pages.home');
 
     }
 
     public function about() {
 
-        $title = "Page About";
-        view('pages.about', compact('title'));
+        view('pages.about');
+    }
+
+    public function contact() {
+        view('pages.contact');
+    }
+
+    public function traitementForm() {
+        dump($_POST);
     }
 }

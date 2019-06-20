@@ -13,7 +13,7 @@ const DB_USER = 'root';
 const DB_PWD  = '';
 
 const WEBSITE_TITLE = "";
-const BASE_URL = "";
+const BASE_URL = "http://localhost/cours/wf3-base-project-videoclub";
 
 const CLASSES_SOURCES = [
     'src/controller',
